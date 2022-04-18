@@ -31,14 +31,6 @@ cd pycharm-community-2022.1/bin
 
 ./pycharm.sh
 
-
-cd $HOME
-
-if [ -d $DIR ] ; then
-        rm -rf pycharm-community-2022.1
-fi
-
-
 rm -rf pycharm-community-2022.1.tar.gz
 
 
