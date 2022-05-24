@@ -1,4 +1,4 @@
-echo "Welcome to rtl88x2bu installer"
+echo "Welcome to rtl88x2bu installer\n"
 sudo apt update
 sudo apt upgrade -y
 sudo apt install git dkms -y
@@ -8,3 +8,6 @@ cd rtl88x2bu
 sudo make
 sudo make install
 sudo modprobe 88x2bu
+
+echo "\nInstallation has finished"
+echo "\nReboot your system to apply the changes"
