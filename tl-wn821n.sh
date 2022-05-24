@@ -41,4 +41,6 @@ sudo make install &&
 
 sudo echo "rtl8192cu" > /etc/modprobe.d/blacklist.conf &&
 
+sudo modprobe rtl8192cu
+
 echo "Parabéns seu Shell Script foi realizado com sucesso"
