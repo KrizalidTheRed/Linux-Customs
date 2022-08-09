@@ -32,6 +32,8 @@ systemctl enable clamav-freshclam
 #start freshclam
 systemctl start clamav-freshclam
 
+#Installing clamtk
+sudo apt install clamtk -y
 
 echo""
 echo""
