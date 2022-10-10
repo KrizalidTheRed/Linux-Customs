@@ -1,4 +1,4 @@
-sudo apt install git build-essential linux-headers-$(uname -r)
+sudo apt install git build-essential linux-headers
 git clone https://github.com/RinCat/RTL88x2BU-Linux-Driver.git
 cd RTL88x2BU-Linux-Driver
 make 
